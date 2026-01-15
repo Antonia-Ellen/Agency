@@ -1,0 +1,89 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  display: block;
+  height: 184px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+.destaque {
+  color: rgb(17, 17, 116);
+}
+.leftcard {
+  display: block;
+  width: 564px;
+  float: left;
+}
+.leftcard img {
+  width: 300px;
+  margin-right: 50px;
+  float: left;
+}
+.rightcard {
+  display: block;
+  width: 563px;
+  float: right;
+}
+.rightcard img {
+  width: 300px;
+  margin-right: 50px;
+  float: left;
+}
+@media (max-width: 600px) {
+  body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+ .logo{
+    position: relative;
+    width: 100px;
+  } 
+h1 {
+  font-size: 350%;
+  text-align: center;
+  display: block;
+  height: 260px;
+}
+
+.leftcard{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+.leftcard img{
+  width: 100%;
+  height: 195px;
+  margin-bottom: 10px;
+}
+.rightcard{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+.rightcard img{
+  width: 100%;
+  height: 180px;
+  margin-bottom: 10px;
+}
+}
